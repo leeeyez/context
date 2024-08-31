@@ -15,7 +15,7 @@ const ReviewPage = () => {
 
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Wrapper
         bgColor={themeStyle[theme]["bgColor"]}
         textColor={themeStyle[theme]["textColor"]}
@@ -32,7 +32,7 @@ const ReviewPage = () => {
         </button>
         <ReviewList />
       </Wrapper>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

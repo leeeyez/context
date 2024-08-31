@@ -5,6 +5,7 @@ import { themeStyle } from "../style/style";
 
 const ToggleBtn = () => {
   const { theme, toggleTheme } = useTheme();
+  console.log("토클 버튼 렌더링");
   return (
     <ToggleButton
       onClick={toggleTheme}
